@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "davide.listello@gmail.com",
+                "Name": "Davide Listello"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "A modern looking clock widget for your Desktop!",
+        "Icon": "clock",
+        "Id": "com.adiwave.plasma.modernclock",
+        "License": "GPLv3",
+        "Name": "Modern Clock",
+        "Version": "1.0.0",
+        "Website": "https://github.com/listellodavide/htop-kde-plasma6/"
+        
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": "org.kde.plasma.time,org.kde.plasma.date",
+    "KPackageStructure": "Plasma/Applet"
+}

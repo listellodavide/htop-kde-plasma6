@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "davide.listello@gmail.com",
+                "Name": "Davide Listello"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "A modern looking Htop like System Monitor",
+        "Icon": "clock",
+        "Id": "com.adiwave.plasma.htop",
+        "License": "GPLv3",
+        "Name": "Htop System Monitor",
+        "Version": "1.0.0",
+        "Website": "https://github.com/listellodavide/htop-kde-plasma6/"
+        
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": "org.kde.plasma.time,org.kde.plasma.date",
+    "KPackageStructure": "Plasma/Applet"
+}
