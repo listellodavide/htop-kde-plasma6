@@ -6,12 +6,12 @@
                 "Name": "Davide Listello"
             }
         ],
-        "Category": "Utilities",
-        "Description": "A modern looking Htop like System Monitor",
+        "Category": "Date and Time",
+        "Description": "A modern looking clock widget for your Desktop!",
         "Icon": "clock",
-        "Id": "com.adiwave.plasma.htop",
+        "Id": "com.adiwave.plasma.modernclock",
         "License": "GPLv3",
-        "Name": "Htop System Monitor",
+        "Name": "Modern Clock",
         "Version": "1.0.0",
         "Website": "https://github.com/listellodavide/htop-kde-plasma6/"
         
