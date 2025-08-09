@@ -1,0 +1,10 @@
+{
+  "name": "htop6",
+  "title": "Htop System Monitor",
+  "description": "A KDE Plasma 6 widget showing system processes and resource usage, inspired by htop.",
+  "version": "1.0",
+  "author": "Your Name",
+  "license": "GPL-3.0-or-later",
+  "icon": "htop"
+}
+
