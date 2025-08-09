@@ -4,7 +4,7 @@ import QtQuick.Controls 6.5
 import org.kde.plasma.core 4.0
 import org.kde.plasma.components 2.0
 
-/*
+/*****
   Htop-like Plasma 6 widget
   Notes:
   - CPU/memory, process list, sorting, filtering, kill buttons
@@ -14,7 +14,7 @@ import org.kde.plasma.components 2.0
     system-wide network speeds and per-process disk I/O rates (from /proc/<pid>/io).
   - Reading many /proc/*/io entries can be somewhat expensive on systems with many processes.
   - Killing processes requires appropriate permissions (you cannot kill root-owned processes without privilege).
-*/
+****/
 
 Item {
     width: 200
@@ -27,7 +27,7 @@ Item {
 }
 
 
-/*
+/*****
 Item {
     id: root
     width: 980
@@ -380,4 +380,4 @@ Item {
 
     // Small note: you can customize colors and visibleColumns at runtime by editing root properties.
 }
-*/
+*****/
