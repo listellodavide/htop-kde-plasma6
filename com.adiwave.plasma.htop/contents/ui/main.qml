@@ -1,8 +1,8 @@
-import QtQuick 6.2
-import QtQuick.Layouts 6.2
-import QtQuick.Controls 6.2
-import org.kde.plasma.core 6.0
-import org.kde.plasma.components 6.0
+import QtQuick 6.5
+import QtQuick.Layouts 6.5
+import QtQuick.Controls 6.5
+import org.kde.plasma.core 4.0
+import org.kde.plasma.components 2.0
 
 /*
   Htop-like Plasma 6 widget
@@ -16,6 +16,18 @@ import org.kde.plasma.components 6.0
   - Killing processes requires appropriate permissions (you cannot kill root-owned processes without privilege).
 */
 
+Item {
+    width: 200
+    height: 100
+
+    Label {
+        text: "Hello Plasma 6"
+        anchors.centerIn: parent
+    }
+}
+
+
+/*
 Item {
     id: root
     width: 980
@@ -368,3 +380,4 @@ Item {
 
     // Small note: you can customize colors and visibleColumns at runtime by editing root properties.
 }
+*/
