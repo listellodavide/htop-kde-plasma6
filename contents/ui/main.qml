@@ -1,16 +1,15 @@
-import QtQuick 2.15
-import QtQuick.Layouts 1.3
-import QtQuick.Controls 2.15
-import org.kde.plasma.core 3.0
-import org.kde.plasma.components 3.0
+import QtQuick 6.2
+import QtQuick.Layouts 6.2
+import QtQuick.Controls 6.2
+import org.kde.plasma.core 6.0
+import org.kde.plasma.components 6.0
 
 /*
-  Htop-like Plasma 6 widget - Main_merged.qml
-  - Merges CPU/memory, process list, sorting, filtering, kill buttons
+  Htop-like Plasma 6 widget
+  Notes:
+  - CPU/memory, process list, sorting, filtering, kill buttons
   - Adds per-process disk I/O rates (read/write) and system network I/O
   - Modular and configurable via root properties (colors, refreshInterval, visibleColumns)
-
-  Notes:
   - Per-process network I/O is not practical from /proc alone; this widget reports
     system-wide network speeds and per-process disk I/O rates (from /proc/<pid>/io).
   - Reading many /proc/*/io entries can be somewhat expensive on systems with many processes.
