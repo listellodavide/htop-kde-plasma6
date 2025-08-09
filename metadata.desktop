@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=htop kde plasma6
+Comment=Simple htop-like system monitor for KDE Plasma 6
+Type=Service
+ServiceTypes=Plasma/Applet
+
+X-KDE-PluginInfo-Author=Davide Listello <davide.listello@gmail.com>
+X-KDE-PluginInfo-Name=htop-kde-plasma6
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Category=System
+X-KDE-PluginInfo-Dependencies=
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Description=Simple htop-like system monitor widget for Plasma 6
+X-KDE-PluginInfo-Website=https://github.com/listellodavide/htop-kde-plasma6
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Source=htop-kde-plasma6
+X-KDE-PluginInfo-Icon=utilities-system-monitor
+
+X-Plasma-API=plasma6
+
